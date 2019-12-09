@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from '../login/login.component';
+import { CrudServicoComponent } from '../crud-servico/crud-servico.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    CrudServicoComponent
   ],
   imports: [
     BrowserModule
